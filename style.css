@@ -136,3 +136,30 @@ header h1 {
 .item p {
     font-weight: lighter;
 }
+
+.third {
+    background-color: var(--sub-text);
+    display: flex;
+    justify-content: center;
+    padding: 7rem 0;
+}
+
+.third .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 55rem;
+}
+
+.third .quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: var(--dark-blue);
+}
+
+.third .author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 22px;
+}
