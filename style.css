@@ -203,3 +203,12 @@ header h1 {
     border: 2px solid var(--hero-font);
     border-radius: 10px;
 }
+
+footer {
+    background-color: var(--dark-blue);
+    color: var(--sub-text);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
