@@ -163,3 +163,43 @@ header h1 {
     font-weight: bold;
     font-size: 22px;
 }
+
+.fourth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.fourth .card {
+    background-color: var(--light-blue);
+    padding: 3rem 6rem;
+    width: 60rem;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fourth h3 {
+    color: var(--hero-font);
+}
+
+.fourth p {
+    color: var(--sub-text);
+}
+
+.fourth .left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.fourth button {
+    background-color: var(--light-blue);
+    color: var(--hero-font);
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    border: 2px solid var(--hero-font);
+    border-radius: 10px;
+}
